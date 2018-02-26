@@ -1,5 +1,0 @@
----
-- name: mysql is present
-  apt:
-    pkg: "mysqld"
-    state: present
