@@ -1,0 +1,7 @@
+---
+- name: nginx is present
+  apt:
+    pkg: "nginx"
+    state: present
+  notify: restart nginx service
+

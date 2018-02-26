@@ -1,0 +1,7 @@
+---
+- name: nginx is removed
+  apt:
+    name: nginx
+    autoremove: true
+    autoclean: true
+    state: absent

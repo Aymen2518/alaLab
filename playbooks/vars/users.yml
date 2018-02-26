@@ -1,0 +1,7 @@
+---
+users:
+  - username: mysql
+    use_sudo: yes
+
+  - username: nginx
+    use_sudo: yes
