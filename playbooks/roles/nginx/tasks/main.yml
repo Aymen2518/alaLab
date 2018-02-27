@@ -1,7 +1,11 @@
 ---
+- name: update os
+  apt:
+    update_cache: yes
+
 - name: nginx is present
   apt:
-    pkg: "nginx"
+    name: "nginx"
     state: present
   notify: restart nginx service
 
